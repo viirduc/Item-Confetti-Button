@@ -1,0 +1,46 @@
+/* Style the popup container */
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+/* Style the input field */
+#itemId {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Style buttons */
+button {
+  background-color: #5865F2; /* Discord-like blue */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4752C4;
+}
+
+/* Saved buttons list */
+#savedButtons {
+  margin-top: 15px;
+}
+
+#savedButtons button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: #363636;
+}
